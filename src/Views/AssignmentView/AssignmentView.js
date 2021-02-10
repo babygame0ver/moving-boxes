@@ -12,7 +12,7 @@ class AssignmentView extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "Assignment";
+    document.title = "Moving Boxes - Boxes that actually moves";
     document.addEventListener("keydown", this.startMovement);
   }
 
